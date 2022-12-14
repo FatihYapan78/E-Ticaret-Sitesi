@@ -1,0 +1,53 @@
+/* Sepet */
+@media(max-width:1400px){
+    form,.siparis{
+        width: 75% !important;
+        margin: auto !important;
+    }
+}
+@media(max-width:992px){
+    .col-6 .fiyat{
+        margin: 0 !important;
+    }
+    .col-6 .toplam,.toplam1,.toplam2{
+        margin: 0;
+    }
+}
+@media(max-width:450px){
+    .col-6 .toplam,.toplam1,.toplam2{
+        margin: 5px !important;
+    }
+}
+@media(max-width:542px){
+    #Ilceler{
+       margin-left: 0 !important;
+       margin-top: 10px;
+    }
+}
+/* Footer */
+@media(max-width:767px){
+    .brands img{
+        margin-top: 20px;
+        
+    }
+}
+/* Üst Navbar */
+@media(max-width:684px){
+    .iletisim{
+        padding: 0;
+    }
+}
+@media(max-width:550px){
+    .iletisim{
+        display: block;
+    }
+    .iletisim .tel_mail{
+        text-align: center;
+    }
+    .tel_mail a{
+        margin-left: 5px;
+    }
+    .sosyal_medya{
+        text-align: center;
+    }
+}

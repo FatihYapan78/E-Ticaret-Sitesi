@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÜYELİK İŞLEMLERİ</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="CSS/uyelik.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+    <!-- Üst Navbar -->
+    <div class="container-fluid iletisim">
+        <div class="tel_mail">
+            <a href="#" title="Telefon Numarası"><i class="bi bi-telephone"></i> 0370 433 33 02</a>
+            <a href="#" title="E-Posta Adresi"><i class="bi bi-envelope"></i> yapanfatih78@gmail.com</a>
+        </div>
+        <div class="sosyal_medya">
+            <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" title="İnstagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" title="Tiktok"><i class="bi bi-tiktok"></i></a>
+            <a href="#" title="Youtube"><i class="bi bi-youtube"></i></a>
+        </div>    
+    </div>
+
+    <!-- Alt Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">ANASAYFA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                KATEGORİLER
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="magaza.html">ERKEK</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="magaza.html">GİYİM</a></li>
+                <li><a class="dropdown-item" href="magaza.html">AYAKKABI</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="magaza.html">KADIN</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="magaza.html">ELBİSE</a></li>
+                <li><a class="dropdown-item" href="magaza.html">AYAKKABI</a></li>
+                <li><a class="dropdown-item" href="magaza.html">TERLİK</a></li>
+                <li><a class="dropdown-item" href="magaza.html">TAKIM ELBİSE</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+           <div class="bg-light icon">
+              <a href="uyelik.html" title="Giriş Yap veya Üye Ol"><i class="bi bi-person"></i></a>
+              <a href="#" title="Favorilerim"><i class="bi bi-heart"></i></a>
+              <a href="#" title="Kartım"><i class="bi bi-credit-card"></i></a>
+              <a href="sepet.html" title="Sepetim" class="position-relative">
+                    <i class="bi bi-cart"></i>
+                    <span id="item-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-2">0</span>
+                  </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- İçerik -->
+    <div class="container my-5 py-5 ">
+        <div class="row">
+            <div class="col-md-5">
+                
+                <form>
+                  <label class="mb-3 d-block text-center"><strong>ÜYE GİRİŞİ</strong></label>
+                    <input type="email" placeholder="E-Posta Adresi" id="mail" class="form-control mb-3">
+                    <input type="password" placeholder="Parola" id="sifre" class="form-control mb-3">
+                    <input type="checkbox" class="form-check-input" id="box">
+                    <label for="box" class="mb-3">Beni Hatırla</label> <br>
+                    <div class="mb-4">
+                      <a href="#" class="text-decoration-none text-dark"><img src="https://img.icons8.com/color/48/null/google-logo.png" style="width: 30px;" alt="resim"> <i>Google</i> ya da</a>
+                      <a href="#" class="text-decoration-none text-dark"><img src="https://img.icons8.com/color/48/null/facebook.png" style="width: 40px;" alt="resim"> <i>Facebook</i> ile giriş yap!</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary buton">Üye Girişi</button>
+                </form>
+            </div>
+            <div class="col-2 d-md-flex align-items-center justify-content-center d-none">
+                <p class="bg-primary rounded-pill d-inline-block fs-1 text-white"><i class="bi bi-arrow-left-right"></i></p>
+            </div>
+            <div class="col-md-5">
+                <form>
+                  <label class="mb-3 d-block text-center mt-md-0 mt-5"><strong>ÜYE OL</strong></label>
+                    <input type="email" placeholder="E-Posta Adresi" id="mail2" class="form-control mb-3">
+                    <input type="password" placeholder="Parola" id="sifre2" class="form-control mb-3">
+                    <input type="password" placeholder="Parola Tekrar" id="sifre3" class="form-control mb-3">
+                    <div class="mb-4">
+                      <a href="#" class="text-decoration-none text-dark"><img src="https://img.icons8.com/color/48/null/google-logo.png" style="width: 30px;" alt="resim"> <i>Google</i> ya da</a>
+                      <a href="#" class="text-decoration-none text-dark"><img src="https://img.icons8.com/color/48/null/facebook.png" style="width: 40px;" alt="resim"> <i>Facebook</i> ile üye ol!</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary buton2">Üye Ol</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+<footer class="footer bg-light mt-5 pt-3">
+    <div class="row w-100 m-0">
+        <div class="col-2">
+          <a class="navbar-brand ps-5 d-md-block d-none" href="#">FY</a>
+        </div>
+        <div class="col-md-8 p-0">
+          <div class="row brands text-center w-100">
+          <div class="col-md-3 col-6 p-0">
+            <a href="#"><img src="img/brands/brand1.png" alt="resim" class="text-center"></a>
+          </div>
+          <div class="col-md-3 col-6 p-0">
+            <a href="#"><img src="img/brands/brand2.png" alt="resim"></a>
+          </div>
+          <div class="col-md-3 col-6 p-0">
+            <a href="#"><img src="img/brands/brand3.png" alt="resim"></a>
+          </div>
+          <div class="col-md-3 col-6 p-0">
+            <a href="#"><img src="img/brands/brand4.png" alt="resim"></a>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-2 hero-image p-0 d-md-block d-none">
+        <p class="p-4 text-black">Türkiye'den sonra şimdi de tüm dünyada (Avrupa-Asya-Amerika)</p>
+      </div>
+    </div>
+      <hr class="border border-2 border-secondary">
+      <div class="row w-100 m-0">
+        <div class="col-md-9 text-center p-0">
+          <div class="row w-100">
+          <div class="col-md-3 col-6 p-0 text-center">
+            <label class="ms-4"><strong>HİZMETLER</strong></label>
+            <ul>
+              <li><a href="#">Çevrimiçi Yardım</a></li>
+              <li><a href="#">Bize Ulaşın</a></li>
+              <li><a href="#">Sipariş Durumu</a></li>
+              <li><a href="#">Adres Değiştir</a></li>
+              <li><a href="#">SSS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-6 p-0">
+            <label class="ms-4"><strong>MAĞAZA</strong></label>
+            <ul>
+              <li><a href="#">Kadın</a></li>
+              <li><a href="#">Erkek</a></li>
+              <li><a href="#">Çocuk</a></li>
+              <li><a href="#">Süper Market</a></li>
+              <li><a href="#">Kozmetik</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-6 p-0">
+            <label class="ms-4"><strong>POLİTİKALAR</strong></label>
+            <ul>
+              <li><a href="#">Kullanım Şartları</a></li>
+              <li><a href="#">Gizlilik Politikaları</a></li>
+              <li><a href="#">Geri Ödeme</a></li>
+              <li><a href="#">Faturalandırma Sistemi</a></li>
+              <li><a href="#">Fiş Sistemi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-6 p-0">
+            <label class="ms-4"><strong>HAKKIMIZDA</strong></label>
+            <ul>
+              <li><a href="#">Şirket Bilgileri</a></li>
+              <li><a href="#">Kariyer</a></li>
+              <li><a href="#">Mağaza Konumu</a></li>
+              <li><a href="#">Ortaklık</a></li>
+              <li><a href="#">Telif Hakkı</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 p-0 text-center">
+            <label><strong>E-POSTA GÖNDER</strong></label><br>
+            <input type="email" placeholder="E-Mail Adresiniz" class="form-control w-75 m-auto">
+            <button type="submit" class="btn btn-primary mt-2 fs-5"><i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+  </footer>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- My JS -->
+    <script src="JS/uyelik.js"></script>
+</body>
+</html>
